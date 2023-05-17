@@ -1,5 +1,5 @@
 {
-    "token": "MTA4NzY4NTMyOTYwMDkxMzQ4OA.GG8uYD.qco4EplOxXf5l3p7iYKgcQmLhtJ74tbbFrR9Ls",
-    "prefix": "*",
-    "mongodb": "mongodb+srv://Erzan:o3y8O8e9UlVySqen@erzan.vvbbbfy.mongodb.net/test"
+    "token": "token",
+    "prefix": "prefix",
+    "mongodb": "mongodb_url"
 }
