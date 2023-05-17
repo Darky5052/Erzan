@@ -1,6 +1,3 @@
-# Erzan
-Erzan by Lucy, the Beautiful
-
 # Welcome to Erzan
 
 ### This code is writeen by JASO0ON#2117 & edited by Darky#5052 or Darky#5411, you are free to use all parts of code but not allowed to claim it as yours. You also have to give sufficient credits, Thank you :D
@@ -30,4 +27,4 @@ Erzan by Lucy, the Beautiful
 ### Run Project by using `npm run s` & `node index.js` 
 ### The npm script will be written in package.json in line 7. You can edit script "s" there and write `npm run <whatever you wrote>`
 
-# Thank you for using our code
+# Thank you for using our code  
