@@ -5,7 +5,7 @@ const {
   Collection,
 } = require("discord.js");
 const { Events, EmbedBuilder, Discord } = require('discord.js');
-const { Eco, EconomyManager } = require("quick.eco");
+//const { Eco, EconomyManager } = require("quick.eco");
 const { loadEvents } = require("./Handlers/eventHandler");
 const { loadCommands } = require("./Handlers/commandHandler");
 
@@ -91,42 +91,6 @@ client.on(Events.MessageCreate, async (message, err) => {
 })
 
 module.exports = client;
-
-// client.eco = new Eco.EconomyManager();({
-//   adapter: 'sqlite'
-// })
-// client.db = Eco.db; // quick.db
-// client.config = require("./config");
-// client.commands = new Discord.Collection();
-// client.aliases = new Discord.Collection();
-// client.shop = {
-//   "Grandma's Stick" : {
-//     cost: 300
-//   }
-// };
-// const fs = require("fs");
-
-// fs.readdir("./Events/", (err, files) => {
-//     if (err) return console.error(err);
-//     files.forEach(f => {
-//         if (!f.endsWith(".js")) return;
-//         const event = require(`./Events/${f}`);
-//         let eventName = f.split(".")[0];
-//         client.on(eventName, event.bind(null, client));
-//     });
-// });
-
-// fs.readdir("./Economy/", (err, files) => {
-//     if (err) return console.error(err);
-//     files.forEach(f => {
-//         if (!f.endsWith(".js")) return;
-//         let command = require(`./Economy/${f}`);
-//         client.commands.set(command.help.name, command);
-//         command.help.aliases.forEach(alias => {
-//             client.aliases.set(alias, command.help.name);
-//         });
-//     });
-// });
 
 client.login(client.config.token).then(() => {
   loadEvents(client);
