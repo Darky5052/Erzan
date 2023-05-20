@@ -5,7 +5,6 @@ const {
   Collection,
 } = require("discord.js");
 const { Events, EmbedBuilder, Discord } = require('discord.js');
-//const { Eco, EconomyManager } = require("quick.eco");
 const { loadEvents } = require("./Handlers/eventHandler");
 const { loadCommands } = require("./Handlers/commandHandler");
 
