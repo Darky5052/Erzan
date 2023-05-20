@@ -1,5 +1,5 @@
 {
     "token": "token",
-    "prefix": "prefix",
+    "prefix": "prefix", //This dosen't actually work. I will try to avoid it because discord supports /commands more
     "mongodb": "mongodb_url"
 }
